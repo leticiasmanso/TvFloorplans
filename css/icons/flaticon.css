@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-box10:before {
+	content: "\e000";
+}
+.flaticon-facebook3:before {
+	content: "\e001";
+}
+.flaticon-grocery10:before {
+	content: "\e002";
+}
+.flaticon-heart17:before {
+	content: "\e003";
+}
+.flaticon-left179:before {
+	content: "\e004";
+}
+.flaticon-mail4:before {
+	content: "\e005";
+}
+.flaticon-pinterest1:before {
+	content: "\e006";
+}
+.flaticon-technology2:before {
+	content: "\e007";
+}
+.flaticon-tumblr4:before {
+	content: "\e008";
+}
+
+.flaticon-grocery10:before, .flaticon-grocery10:before,
+.flaticon-grocery10:after, .flaticon-grocery10:after {   
+    font-size: 20px;
+}
+
+.flaticon-box10:before, .flaticon-box10:before,
+.flaticon-box10:after, .flaticon-box10:after {   
+    font-size: 26px;
+}
+
+.flaticon-heart17:before, .flaticon-heart17:before,
+.flaticon-heart17:after, .flaticon-heart17:after {   
+    font-size: 26px;
+}
+
+.flaticon-mail4:before, .flaticon-mail4:before,
+.flaticon-mail4:after, .flaticon-mail4:after {   
+    font-size: 26px;
+}
+
+.flaticon-facebook3:before, .flaticon-facebook3:before,
+.flaticon-facebook3:after, .flaticon-facebook3:after {   
+    font-size: 34px;
+}
+
+.flaticon-tumblr4:before, .flaticon-tumblr4:before,
+.flaticon-tumblr4:after, .flaticon-tumblr4:after {   
+    font-size: 34px;
+}
+.flaticon-pinterest1:before, .flaticon-pinterest1:before,
+.flaticon-pinterest1:after, .flaticon-pinterest1:after {   
+    font-size: 34px;
+}
