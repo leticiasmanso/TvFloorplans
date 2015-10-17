@@ -290,13 +290,54 @@ header nav ul li a.active {
 	background: #fff;
 }
 
-/**** ABOUT ****/
-section.about {
-	background-color: #ffffff;
-	padding-top: 180px;
-	width: 100%;
-	min-height: 450px;
+/**** ABOUT ***/
+
+section.container-about {
+	padding-top: 160px;
+	margin: 0 auto;
+	height: 550px;
+	width: 550px;
 }
+
+.about {
+	height: 550px;
+	background-image: URL("../images/periscope.jpg");
+	background-position: center 0px;
+	background-attachment: fixed;
+	border-radius: 50%;
+	position: relative;
+}
+
+.window-tint {
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 50%;
+}
+
+.about-text {
+  	text-align: center;
+  	color: #ffffff;
+	margin-right: 100px;
+  	margin-left: 100px;
+  	margin-top: 80px;
+  	font-size: 50px;
+  	font-weight: lighter; 
+}
+
+.about-text span {
+	color: #ffffff;
+  	text-align: justify;
+  	display: block;
+  	font-size: 16px;
+  	margin-top: 30px;
+    font-weight: lighter;
+}
+
+/*** 
 
 #bio {
 	width: 55%;
@@ -339,7 +380,7 @@ section.about {
 	border: 1px solid #ffffff;
 	background: #ffffff;
 	cursor: pointer;
-}
+} ***/
 
 /**** WORK ****/
 section.work {

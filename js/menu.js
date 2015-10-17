@@ -25,4 +25,18 @@ $(document).ready(function(){
 
 	});
 
+	$(window).scroll(function() {
+
+		var wScroll = $(this).scrollTop();
+
+		if(wScroll > ($('.about').offset().top - $(window).height())){
+					
+			var opacity= (wScroll - $('.about').offset().top + 400) / (wScroll/3);
+
+			$('.window-tint').css({'opacity':opacity});
+
+		}
+
+	});
+
 });
