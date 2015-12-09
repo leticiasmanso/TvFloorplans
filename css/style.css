@@ -514,6 +514,32 @@ section.work {
 	left: -4%;
 }
 
+@media screen and (max-width: 960px) {
+	section.work {
+		height: 950px;
+	}
+
+	.wrapper-gallery {
+		width: 520px;	
+	}
+
+	.img-single {
+		margin: 10px 20px;
+	}
+
+}
+
+@media screen and (max-width: 540px) {
+	section.work {
+		height: 1950px;
+	}
+
+	.wrapper-gallery {
+		width: 260px;	
+	}
+
+}
+
 /**** CONTACT ****/
 section.contact {
 	background-color: #ffffff;
