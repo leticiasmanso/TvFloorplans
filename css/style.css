@@ -514,7 +514,18 @@ section.work {
 	left: -4%;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 970px) {
+	section.work {
+		height: 610px;
+	}
+
+	.wrapper-gallery {
+		width: 720px;	
+	}
+
+}
+
+@media screen and (max-width: 740px) {
 	section.work {
 		height: 950px;
 	}
