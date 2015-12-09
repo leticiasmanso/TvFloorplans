@@ -473,7 +473,7 @@ section.container-about {
 section.work {
 	padding-top: 180px;
 	width: 100%;
-	height: 600px;
+	height: 510px;
 }
 
 .wrapper-gallery {
@@ -512,6 +512,32 @@ section.work {
 	height: 108%;
 	top: -4%;
 	left: -4%;
+}
+
+@media screen and (max-width: 960px) {
+	section.work {
+		height: 950px;
+	}
+
+	.wrapper-gallery {
+		width: 520px;	
+	}
+
+	.img-single {
+		margin: 10px 20px;
+	}
+
+}
+
+@media screen and (max-width: 540px) {
+	section.work {
+		height: 1950px;
+	}
+
+	.wrapper-gallery {
+		width: 260px;	
+	}
+
 }
 
 /**** CONTACT ****/
